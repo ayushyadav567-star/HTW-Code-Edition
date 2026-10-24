@@ -9,7 +9,7 @@ if operator == "+":
 elif operator == "-":
     result = first - second
 elif operator == "*":
-    result = first + second
+    result = first * second
 elif operator == "/" and second != 0:
     result = first / second
 else:
