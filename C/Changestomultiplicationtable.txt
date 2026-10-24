@@ -1,0 +1,4 @@
+//I made following changes
+for (int i = 1; i <= 10; i++)
+
+I added a equal sign in condition part #i <= 10 to run the table upto 10 terms
