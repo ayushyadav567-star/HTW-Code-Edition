@@ -1,0 +1,4 @@
+//I made changes to even & odd (Team Curly Braces)
+i changed the printing string from even to odd and vice versa
+printf("%d is even.\n", number);
+printf("%d is odd.\n", number);

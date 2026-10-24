@@ -10,9 +10,9 @@ int main(void) {
     }
 
     if (number % 2 == 0) {
-        printf("%d is odd.\n", number);
-    } else {
         printf("%d is even.\n", number);
+    } else {
+        printf("%d is odd.\n", number);
     }
 
     return 0;
