@@ -9,8 +9,8 @@ int main(void) {
         printf("Please enter a positive integer.\n");
         return 1;
     }
-
-    for (int i = 1; i < n; i++) {
+//there was no = sign because of which the loop was only running till n-1
+    for (int i = 1; i <= n; i++) {
         sum += i;
     }
 

@@ -1,19 +1,26 @@
 #include <stdio.h>
 
-int main(void) {
+int main()
+{
     int a, b, c;
 
     printf("Enter three integers separated by spaces: ");
-    if (scanf("%d %d %d", &a, &b, &c) != 3) {
+    if (scanf("%d %d %d", &a, &b, &c) != 3)
+    {
         printf("Invalid input.\n");
         return 1;
     }
 
-    if (a > b && a > c) {
+    if (a >= b && a >= c)
+    {
         printf("Largest = %d\n", a);
-    } else if (b > a && b > c) {
+    }
+    else if (b >= a && b >= c)
+    {
         printf("Largest = %d\n", b);
-    } else {
+    }
+    else
+    {
         printf("Largest = %d\n", c);
     }
 

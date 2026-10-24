@@ -15,5 +15,4 @@ elif operator == "/" and second != 0:
 else:
     print("Invalid operator or division by zero.")
     raise SystemExit
-
 print("Result:", result)
