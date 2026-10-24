@@ -10,10 +10,9 @@ elif operator == "-":
     result = first - second
 elif operator == "*":
     result = first + second
-elif operator == "/" and second != 0:
+elif operator == "/":
     result = first / second
 else:
     print("Invalid operator or division by zero.")
     raise SystemExit
-
 print("Result:", result)
