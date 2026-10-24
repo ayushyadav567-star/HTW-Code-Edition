@@ -4,13 +4,12 @@ int main(void) {
     int marks;
 
     printf("Enter marks (0-100): ");
-    //edited
     if (scanf("%d", &marks) != 1 || marks < 0 || marks > 100) {
         printf("Invalid marks. Enter a value from 0 to 100.\n");
         return 1;
     }
-//edited
-    if (marks >= 90) {
+
+    if (marks > 90) {
         printf("Grade: A\n");
     } else if (marks >= 80) {
         printf("Grade: B\n");
